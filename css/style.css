@@ -1,0 +1,56 @@
+html{
+    font-size : 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+h1{
+    color: darkslateblue;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.wrapper{
+    width: 1250px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-gap: 10px;
+
+    margin: auto;
+}
+
+.restart, .solve{
+    height: 30px;
+    width: 100px;
+    color: darkslateblue;
+    border-color: darkslateblue;
+    background-color: white;
+}
+
+.buttons{
+    width: 210px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+
+    margin: auto;
+}
+
+.timer{
+    width: 210px;
+    height: 30px;
+    text-align: center;
+    color: darkslateblue;
+    border: 2px solid;
+    border-color: darkslateblue;
+    background-color: white;
+    margin: auto;
+}
+
+.won{
+    width: 210px;
+    height: 60px;
+    text-align: center;
+    color: darkslateblue;
+    margin: auto;
+}
